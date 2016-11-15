@@ -46,4 +46,3 @@
 1. 从 master 分出新分支 hotfix/somebugs；
 2. 修复 BUG；
 3. 完成 BUG 修复，结束 hotfix/somebugs，代码合并到 develop 和 master；
-
