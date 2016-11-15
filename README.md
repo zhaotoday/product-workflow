@@ -9,7 +9,7 @@
 域名：{app}.bate.liruan.cn）
 
 ### 生产环境
-名称：prod
+名称：prod  
 域名：www.{app}.cn 或 {app}.prod.liruan.cn
 
 ## 二、分支
