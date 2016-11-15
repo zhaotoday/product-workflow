@@ -1,11 +1,11 @@
 ## 一、发布环境
 
 ### 测试环境
-name: test
+name: test  
 url: http://{app}.test.liruan.cn/
 
 ### 预生产环境
-name: beta
+name: beta  
 url: http://{app}.beta.liruan.cn/
 
 ### 生产环境
