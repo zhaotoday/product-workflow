@@ -1,16 +1,14 @@
-# 结合网龙共享平台总结的产品发布流程及 git flow 工作流
+# 一、发布环境：
 
-## 发布环境：
-
-### 测试环境
+## 1. 测试环境
 名称：test
 域名：{app}.test.liruan.cn）
 
-### 预生产环境
+## 2. 预生产环境
 名称：beta
 域名：{app}.bate.liruan.cn）
 
-### 生产环境
+## 3. 生产环境
 名称：prod
 域名：www.{app}.cn 或 {app}.prod.liruan.cn
 
@@ -49,5 +47,5 @@
 ### 三、修复线上 BUG
 1. 从 master 分出新分支 hotfix/somebugs；
 2. 修复 BUG；
-3. 完成 BUG 修复，结束 hotfix/somebugs，代码合并到 develop 和 master；  
+3. 完成 BUG 修复，结束 hotfix/somebugs，代码合并到 develop 和 master；
 
