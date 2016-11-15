@@ -1,35 +1,35 @@
-## 一、发布环境：
+## 一、发布环境
 
 ### 测试环境
-名称：test
-域名：{app}.test.liruan.cn）
+name: test
+url: http://{app}.test.liruan.cn/
 
 ### 预生产环境
-名称：beta
-域名：{app}.bate.liruan.cn）
+name: beta
+url: http://{app}.beta.liruan.cn/
 
 ### 生产环境
-名称：prod  
-域名：www.{app}.cn 或 {app}.prod.liruan.cn
+name: prod  
+url: http://www.{app}.cn/ 或 http://{app}.prod.liruan.cn/
 
 ## 二、分支
 
 ### master
-发布到预生产和生产，在预生产上走查无误方可发布到正式
+可发布到 beta 和 prod，在 beta 上走查无误方可发布到 prod。
 
 ### develop
-发布到测试环境，用于 QA 测试，BUG 修复
+稳定版本，新特性的起点。
 
 ### feature/*
-新特性开发
+新特性开发。
 
 ### release/*
-提测，BUG 修复
+发布到 test，提测、BUG 修复。
 
 ### hotfix/*
-生产 BUG 修复
+线上 BUG 修复。
 
-## 三、流程：
+## 三、流程
 
 ### 新特性开发
 1. 接到一个新产品特性 a；
@@ -39,10 +39,13 @@
 
 ### 提测
 1. 从 develop（此时 develop 可能包含多个特性：feature/a、feature/b ...）分出新分支 release/ab；
-2. 在 release 上修复 QA 测试的 BUG；
+2. 在 release/ab 上修复 QA 测试的 BUG；
 3. 完成测试，结束 release/ab，代码合并到 develop 和 master；
 
 ### 修复线上 BUG
 1. 从 master 分出新分支 hotfix/somebugs；
 2. 修复 BUG；
 3. 完成 BUG 修复，结束 hotfix/somebugs，代码合并到 develop 和 master；
+
+## 注意事项
+用于发布的分支有 master、release，所以只能在这两个分组上构建代码。
