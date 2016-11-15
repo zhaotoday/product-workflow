@@ -1,7 +1,7 @@
 ## 一、发布环境：
 
 ### 测试环境
-名称：test  
+名称：test
 域名：{app}.test.liruan.cn）
 
 ### 预生产环境
@@ -9,7 +9,7 @@
 域名：{app}.bate.liruan.cn）
 
 ### 生产环境
-名称：prod
+名称：prod  
 域名：www.{app}.cn 或 {app}.prod.liruan.cn
 
 ## 二、分支
