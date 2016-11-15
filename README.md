@@ -48,4 +48,4 @@ url: http://www.{app}.cn/ 或 http://{app}.prod.liruan.cn/
 3. 完成 BUG 修复，结束 hotfix/somebugs，代码合并到 develop 和 master；
 
 ## 注意事项
-用于发布的分支有 master、release，所以只能在这两个分组上构建代码。
+用于发布的分支有 master、release/*，所以只能在这两个分支上构建代码，减少合并时的冲突。
