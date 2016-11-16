@@ -52,4 +52,6 @@ url: http://www.{app}.cn/ 或 http://{app}.prod.liruan.cn/
 
 ## 五、参考
 http://www.qianduan.org/post-447.html  
-http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html
+http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html  
+https://raw.githubusercontent.com/arslanbilal/git-cheat-sheet/master/Img/git-flow-commands-without-flow.png  
+https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-zh.md
