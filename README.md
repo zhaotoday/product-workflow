@@ -38,14 +38,14 @@ url: http://www.{app}.cn/ 或 http://{app}.prod.liruan.cn/
 4. 完成开发，结束特性 a，代码合并到 develop；
 
 ### 提测
-1. 从 develop（此时 develop 可能包含多个特性：feature/a、feature/b ...）分出新分支 release/v1.2.3；
-2. 在 release/v1.2.3 上修复 QA 测试的 BUG；
-3. 完成测试，结束 release/v1.2.3，代码合并到 develop 和 master；
+1. 从 develop（此时 develop 可能包含多个特性：feature/a、feature/b ...）分出新分支 release/v1.2.0；
+2. 在 release/v1.2.0 上修复 QA 测试的 BUG；
+3. 完成测试，结束 release/v1.2.0，代码合并到 develop 和 master；
 
 ### 修复线上 BUG
-1. 从 master 分出新分支 hotfix/somebugs；
+1. 从 master 分出新分支 hotfix/v1.2.1；
 2. 修复 BUG；
-3. 完成 BUG 修复，结束 hotfix/somebugs，代码合并到 develop 和 master；
+3. 完成 BUG 修复，结束 hotfix/v1.2.1，代码合并到 develop 和 master；
 
 ## 四、注意
 用于发布的分支有 master、release/*，所以只能在这两个分支上构建代码，减少合并时的冲突。  
