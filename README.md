@@ -50,7 +50,10 @@ url: http://www.{app}.cn/ 或 http://{app}.prod.liruan.cn/
 ## 四、注意
 用于发布的分支有 master、release/*，所以只能在这两个分支上构建代码，减少合并时的冲突。  
 
-## 五、参考
+## 五、部署系统
+[瓦力上线部署](https://walle-web.io/)
+
+## 六、参考
 http://www.qianduan.org/post-447.html  
 http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html  
 https://raw.githubusercontent.com/arslanbilal/git-cheat-sheet/master/Img/git-flow-commands-without-flow.png  
