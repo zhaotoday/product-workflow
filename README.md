@@ -49,7 +49,8 @@ url: http://www.{app}.cn/ 或 http://{app}.prod.liruan.cn/
 
 ## 四、注意
 1. 用于发布的分支有 master、release/*，所以只能在这两个分支上构建代码，减少合并时的冲突；
-2. 另外，可以在构建目录（如：dist）的上一级目录下放置 [.gitattributes]() 文件，减少构建代码冲突；
+2. 另外，可以在构建目录（如：dist）的上一级目录下放置 [.gitattributes](https://github.com/zhaotoday/product-workflow/blob/master/.gitattributes) 文件，减少构建代码冲突；
+
 ## 五、部署系统
 推荐使用：[瓦力上线部署](https://walle-web.io/)
 
