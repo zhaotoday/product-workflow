@@ -18,7 +18,7 @@ url: http://www.{app}.cn/ 或 http://{app}.prod.liruan.cn/
 可发布到 beta 和 prod，在 beta 上走查无误方可发布到 prod。
 
 ### develop
-稳定版本，新特性的起点。
+新特性的起点。
 
 ### feature/*
 新特性开发。
