@@ -13,12 +13,11 @@ name: prod
 url: http://www.{app}.cn/ 或 http://{app}.prod.liruan.cn/
 
 ## 二、分支
-
 ### master
-可发布到 beta 和 prod，在 beta 上走查无误方可发布到 prod。
+最为稳定，功能最为完整的，随时可发布的代码。可发布到 beta 和 prod，在 beta 上走查无误方可发布到 prod。
 
 ### develop
-新特性的起点。
+永远是功能最新最全的分支。新特性的起点。
 
 ### feature/*
 新特性开发。
