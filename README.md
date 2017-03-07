@@ -60,3 +60,4 @@ url: http://www.{app}.cn/ 或 http://{app}.prod.liruan.cn/
 - http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html  
 - https://raw.githubusercontent.com/arslanbilal/git-cheat-sheet/master/Img/git-flow-commands-without-flow.png  
 - https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-zh.md
+- https://ourai.ws/posts/working-with-git-in-team/
