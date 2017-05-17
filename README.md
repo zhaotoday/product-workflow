@@ -48,7 +48,7 @@ url: `https://www.{app}.cn/` 或 `https://{app}.prod.liruan.cn/`
 
 ## 四、域名转发
 如果 QA 因为某些原因，需要在 beta 或 prod 测试，建议其使用 fiddler 做域名转发。步骤如下：
-> 请保证测试代码已发布至 test 环境，且接口域名与项目域名不一致。
+> 请保证测试代码已发布至 test，且接口域名与项目域名不一致。
 1. 切到 fiddler 右边面板的 AutoResponser；
 2. 选中下面的 Enable Rules 和 Unmatched requests passthrough 复选框；
 3. 点击 Add Rule；
