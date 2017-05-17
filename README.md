@@ -47,7 +47,8 @@ url: `https://www.{app}.cn/` 或 `https://{app}.prod.liruan.cn/`
 3. 完成 BUG 修复，结束 hotfix/v1.2.1，代码合并到 develop 和 master；
 
 ## 四、域名转发
-如果 QA 因为某些原因，需要在预生产或生产环境测试，建议其使用 fiddler 做域名转发。步骤如下：
+如果 QA 因为某些原因，需要在 beta 或 prod 测试，建议其使用 fiddler 做域名转发。步骤如下：
+> 请保证测试代码已发布至 test 环境，且接口域名与项目域名不一致。
 1. 切到 fiddler 右边面板的 AutoResponser；
 2. 选中下面的 Enable Rules 和 Unmatched requests passthrough 复选框；
 3. 点击 Add Rule；
@@ -55,14 +56,14 @@ url: `https://www.{app}.cn/` 或 `https://{app}.prod.liruan.cn/`
 5. 第二个输入框输入：`http://{app}.test.liruan.cn/$1`；
 6. 点击 Save；
 
-## 四、注意
+## 五、注意
 1. 用于发布的分支有 master、release/*，所以只能在这两个分支上构建代码，减少合并时的冲突；
 2. 另外，可以在构建目录（如：dist）的上一级目录下放置 [.gitattributes](https://github.com/zhaotoday/product-workflow/blob/master/.gitattributes) 文件，减少构建代码冲突；
 
-## 五、部署系统
+## 六、部署系统
 推荐使用：[瓦力上线部署](https://walle-web.io/)
 
-## 六、参考
+## 七、参考
 - http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html
 - http://www.imooc.com/learn/751  
 - http://www.qianduan.org/post-447.html  
