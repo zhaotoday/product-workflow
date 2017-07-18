@@ -34,13 +34,13 @@ url: `https://www.{app}.cn/` 或 `https://{app}.prod.liruan.cn/`
 1. 接到一个新产品特性 a；
 2. 从 develop 分出新分支 feature/a；
 3. 在 feature/a 开发特性 a；
-4. 完成开发，结束特性 a，代码合并到 develop；
+4. 完成开发后，请和 QA 一起进行 MSC（Mini Show Case），演示特性 a，并及时修复发现的问题；
+5. MSC 完成后，结束特性 a，代码合并到 develop；
 
 ### 提测
-1. 提测前，请和 QA 一起进行 MSC（Mini Show Case），演示一遍新增特性，如发现问题请在 feature 上直接修改；
-2. MSC 完成，从 develop（此时 develop 可能包含多个特性：feature/a、feature/b ...）分出新分支 release/v1.2.0；
-3. 在 release/v1.2.0 上修复 QA 测试的 BUG；
-4. 完成测试，结束 release/v1.2.0，代码合并到 develop 和 master；
+1. 从 develop（此时 develop 可能包含多个特性：feature/a、feature/b ...）分出新分支 release/v1.2.0；
+2. 在 release/v1.2.0 上修复 QA 测试的 BUG；
+3. 完成测试，结束 release/v1.2.0，代码合并到 develop 和 master；
 
 ### 修复线上 BUG
 1. 从 master 分出新分支 hotfix/v1.2.1；
